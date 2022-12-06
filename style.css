@@ -1,0 +1,88 @@
+/*background color #F6F3D8*/
+/*background color zone de text #FFFEF6*/
+/*color li #1E1E1E*/
+/*color a #01D98B*/
+* {
+  padding: 0;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  background-color: #F6F3D8;
+}
+body #back {
+  width: 90%;
+  margin: auto;
+  background-color: #FFFEF6;
+}
+body #back header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+body #back header #navlog {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+body #back header #navlog .navi {
+  width: 70%;
+  margin: auto;
+}
+body #back header #navlog .navi nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+body #back header #navlog .navi nav ul li {
+  list-style-type: none;
+}
+body #back header #navlog .navi nav ul li a {
+  color: #1E1E1E;
+  text-decoration: none;
+}
+body #back header #navlog .login button {
+  padding: 1em 2em;
+  border-radius: 10%;
+}
+body #card {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  background-image: url(./assets/right.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  background-color: #FFFEF6;
+}
+body #card #play {
+  width: 50%;
+  top: 50vh;
+  left: 80px;
+}
+body #card #play #bfoot {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+body #card #play h2 {
+  width: 80%;
+}
+body #card #play p {
+  width: 80%;
+}
+body #card #play p #txtHint a:hover {
+  color: #01D98B;
+  cursor: url(./assets/hand.png), auto;
+}
+body #card #tree {
+  width: 30%;
+  position: relative;
+  z-index: 99;
+  top: 100px;
+}
+body #card #tree img {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
